@@ -1,5 +1,6 @@
 <div class="content-main">
     <div class="content-main__inner">
+	    <h1>hello world</h1>
     <?php if($this->session->flashdata('errorcat')): ?>
 		<div class="alert alert-danger fade show" role="alert">
 			<div class="alert-text"><?php echo $this->session->flashdata('errorcat')?></div>
