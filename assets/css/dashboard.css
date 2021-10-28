@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.c-btn {
+  font-family: "Poppins", sans-serif;
+  padding: 10px 30px;
+  background: #D90429;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  display: -webkit-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #EDF2F4;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.c-btn:hover {
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+  -webkit-box-shadow: 0 10px 20px -10px #2b2d42;
+          box-shadow: 0 10px 20px -10px #2b2d42;
+}
+
+.dashboard {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=dashboard.css.map */
